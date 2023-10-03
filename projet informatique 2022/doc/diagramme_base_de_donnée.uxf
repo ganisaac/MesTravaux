@@ -1,0 +1,39 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>100</x><y>20</y><w>210</w><h>100</h></coordinates><panel_attributes>Mécaniciens
+--
+ID_Mécanicien : INT KEY
+Prénom : CHAR
+Nom : CHAR
+Age : INT
+Salaire : Float
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>220</y><w>210</w><h>120</h></coordinates><panel_attributes>Réparation
+--
+ID_Réparation : INT KEY
+ID_Voiture : INT
+ID_Mécanicien : INT
+Partie_défectueuse : CHAR
+Coût_réparation: FLOAT
+Facture_client : FLOAT
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>420</x><y>420</y><w>210</w><h>70</h></coordinates><panel_attributes>Clients
+--
+ID_client : INT KEY
+Name_client : CHAR
+Age : INT
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>110</y><w>50</w><h>130</h></coordinates><panel_attributes>lt=-
+m1=1
+m2=0_*
+</panel_attributes><additional_attributes>10;10;10;110</additional_attributes></element><element><id>Relation</id><coordinates><x>190</x><y>330</y><w>50</w><h>110</h></coordinates><panel_attributes>lt=-
+m1=0_*
+m2=1
+</panel_attributes><additional_attributes>10;10;10;90</additional_attributes></element><element><id>UMLClass</id><coordinates><x>100</x><y>420</y><w>210</w><h>70</h></coordinates><panel_attributes>Voitures
+--
+ID_voitures : INT KEY
+modèle_voiture : CHAR
+ID_propriétaire
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>300</x><y>440</y><w>140</w><h>50</h></coordinates><panel_attributes>lt=-
+m1=1_*
+m2=1
+</panel_attributes><additional_attributes>10;20;120;20</additional_attributes></element></diagram>
