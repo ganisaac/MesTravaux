@@ -1,0 +1,127 @@
+body {
+    font-family: "Lato", sans-serif;
+    background-color: #F7F7F7;
+}
+
+.header {
+    background-color: #03045e;
+    /*height: 288px;
+    padding: 16px 0 0 0;*/
+}
+
+.header-emoji {
+    font-size: 48px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header-title {
+    color: #FFFFFF;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.header-description {
+    color: #CFCFCF;
+    margin: 4px auto;
+    text-align: center;
+    max-width: 384px;
+}
+
+.wrapper{
+    margin-right:auto;
+    margin-left:auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 32px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.card {
+    margin-bottom: 24px;
+    width: 100%;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.18);
+    color:#03045e;
+    border :2px solid #03045e;
+    /*border-radius: 1em;*/
+    font-size: x-large;
+    font-weight: bold ;
+    text-align: center;
+
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bolder;
+    margin-bottom: 8px;
+}
+
+tr:hover {background-color: #ade8f4;}
+
+table,td{
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid #03045e;
+}
+
+.menu {
+    width: 70%;
+    margin-top:10px;
+    margin-left: 15%;
+    background-color: #FFFFFF;
+    /*height: 112px;
+    margin: -80px auto 0 auto;
+    
+    */
+    box-shadow: 0 4px 6px 0 #0077b6;
+    border-radius: 1em;
+}
+
+.menu-title {
+    margin-bottom: 6px;
+    font-weight: bold;
+    font-size: 24px;
+    color: #03045e;
+}
+
+.dropdown {
+    width: 150px;
+    margin: 0 auto;
+}
+
+
+.Select-control {
+    width: 150px;
+    height: 48px;
+}
+
+.Select--single>.Select-control .Select-value,
+.Select-placeholder {
+    line-height: 48px;
+}
+
+.Select--multi .Select-value-label {
+    line-height: 32px;
+}
+
+
+
+.header-link {
+    color: white;
+    text-align: right;
+    text-decoration: none;
+}
+
+.main{
+    margin-top: 16px;
+    display: flex;
+}
