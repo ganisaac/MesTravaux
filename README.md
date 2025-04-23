@@ -1,2 +1,2 @@
 # MesTravaux
-Ce dépôt contient tous les éléments utiles pour juger de mes compétences professionnelles
+Ce dépôt contient des travaux intéressants réalisés dans le cadre académique, professionnel ou réalisés par initiative personnelle.
